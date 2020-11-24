@@ -92,7 +92,7 @@ st.write('<br><br>', unsafe_allow_html=True)
 '''
 ## 4. Emergency - 911 Calls from montgomery country
 '''
-df = pd.read_csv('911.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/shoaibb/911-Calls-Data-Analysis/master/911.csv')
 st.dataframe(data=df.head())
 
 '''
